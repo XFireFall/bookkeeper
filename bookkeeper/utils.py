@@ -30,7 +30,7 @@ def read_tree(lines: Iterable[str]) -> list[tuple[str, str | None]]:
 
     даст такое дерево:
     [('parent', None), ('child1', 'parent'),
-     ('child2', 'child1'), ('child3', 'parent')]
+    ('child2', 'child1'), ('child3', 'parent')]
 
     Пустые строки игнорируются.
 
